@@ -233,7 +233,6 @@ export function Hero() {
                   alt="Habitáculo de luxo tratado com detalhe automóvel em Lagos pela CleanEffect"
                   fill
                   priority
-                  unoptimized
                   sizes="(max-width: 1024px) 92vw, 540px"
                   className="object-cover transition-transform duration-[1400ms] ease-out hover:scale-[1.04]"
                 />

@@ -143,7 +143,6 @@ export function Showcase() {
                 src={active.image}
                 alt={active.alt}
                 fill
-                unoptimized
                 sizes="(max-width: 1024px) 92vw, 560px"
                 className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05]"
               />
