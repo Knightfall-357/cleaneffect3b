@@ -5,7 +5,9 @@ import { cn } from "@/lib/cn";
 /**
  * CleanEffect logo, rendered from the brand PNG.
  *
- * Source file: /public/brand/cleaneffect-logo.png (1920 × 1080, white background).
+ * Source file: /public/brand/cleaneffect-logo.png (1920 × 1080, transparent
+ * background — the official CleanEffect artwork). Works on light surfaces
+ * directly and on the white badge used for dark surfaces (tone="light").
  * To update the logo, overwrite that file — no code changes needed.
  *
  * The artwork sits inside generous whitespace, so we crop to the artwork's
@@ -51,7 +53,6 @@ export function Logo({ className, tone = "dark", size = "md", priority = false }
         width={CANVAS.width}
         height={CANVAS.height}
         priority={priority}
-        unoptimized
         sizes="(max-width: 640px) 100px, 130px"
         style={imageStyle}
       />

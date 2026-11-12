@@ -15,7 +15,6 @@ export function BeforeAfter() {
           src="/images/seat-after.jpg"
           alt="Car seat after a CleanEffect deep clean, fibres bright and spotless"
           fill
-          unoptimized
           sizes="(max-width: 1024px) 92vw, 620px"
           className="object-cover"
         />
@@ -28,7 +27,6 @@ export function BeforeAfter() {
             src="/images/seat-before.jpg"
             alt="The same car seat before cleaning, marked with coffee stains and pet hair"
             fill
-            unoptimized
             sizes="(max-width: 1024px) 92vw, 620px"
             className="object-cover"
           />

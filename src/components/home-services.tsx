@@ -101,7 +101,6 @@ export function HomeServices() {
                     src={item.image}
                     alt={item.alt}
                     fill
-                    unoptimized
                     sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 380px"
                     className="object-cover transition-transform duration-[1100ms] ease-out group-hover:scale-[1.05]"
                   />
